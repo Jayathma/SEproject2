@@ -1,0 +1,72 @@
+body{
+background-image: url(bgimage2.jpg);
+background-size: cover;
+padding-top: 50px;
+background-repeat: no-repeat;
+color:darkgrey;
+font-family: 'Oswald', sans-serif;
+}
+
+input{
+    border-style: none;
+    background: transparent;
+}
+
+#nav{
+	padding-top: 20px;
+	font-size: 35px;
+	background: rgba(0,0,0,0.8);
+	width: 480px;
+	height: 580px;
+	margin: auto;
+	border-radius: 10px;
+    text-align: center;
+    
+
+}
+#nav input{
+	font-size: 16px;
+	border-radius: 3px;
+    border-bottom: 3px solid;
+    border-color: darkgrey;
+    color: darkgrey;
+}
+
+form{
+    margin-left: 100px;
+    font-size: 30px;
+}
+
+table tr td{
+    padding-top: 10px;
+}
+
+#nav input[name="subm"]{
+	margin-top: 20px;
+	width: 90px;
+    height: 20px;
+	border-radius: 5px;
+    text-align: center;
+	height: 40px;
+	background: black;
+	color: darkgrey;
+	font-weight: bold;
+    border-style: solid;
+    margin-left: 10px;
+    border-color: darkgrey;
+}
+
+p{
+    margin-left: -90px;
+}
+
+p a {
+    color: white;
+    text-decoration: none; 
+}
+
+p a:hover{
+    color: black;
+    background-color: darkgrey;
+    font-weight: 900; 
+}
